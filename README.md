@@ -14,7 +14,7 @@ be sorted as a list according to the occurrence count, or a weight may be given
 as a coefficient to the substring's length or its frequency.
 
 Usage
-=====
+-----
 
 `morph L F [files ...]`
 
@@ -41,12 +41,13 @@ To skip sorting entirely, write `morph 0 0`. The resulting list of frequencies w
 have an indeterminate order.
 
 Future
-======
+------
 
 I feel that this program would be vastly more useful with an interactive GUI.
 Constantly rewriting terminal commands and piping them into less and grep with
-different weights of L and F does not sound like a fun time. I have no experience
-with GUI programming but I would like to explore this in the future.
+different weights of L and F to compare the results does not sound like a fun time.
+I have no experience with GUI programming but I would like to explore this in the
+future.
 
 Another possibility would be to allow the input list to have a second field for
 each word, containing a multiplier for the frequencies it contributes to its
